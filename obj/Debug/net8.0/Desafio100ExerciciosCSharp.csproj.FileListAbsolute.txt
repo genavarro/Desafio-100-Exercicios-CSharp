@@ -1,0 +1,14 @@
+C:\src\Desafio100ExerciciosCSharp\bin\Debug\net8.0\Desafio100ExerciciosCSharp.exe
+C:\src\Desafio100ExerciciosCSharp\bin\Debug\net8.0\Desafio100ExerciciosCSharp.deps.json
+C:\src\Desafio100ExerciciosCSharp\bin\Debug\net8.0\Desafio100ExerciciosCSharp.runtimeconfig.json
+C:\src\Desafio100ExerciciosCSharp\bin\Debug\net8.0\Desafio100ExerciciosCSharp.dll
+C:\src\Desafio100ExerciciosCSharp\bin\Debug\net8.0\Desafio100ExerciciosCSharp.pdb
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.AssemblyInfoInputs.cache
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.AssemblyInfo.cs
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.csproj.CoreCompileInputs.cache
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.dll
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\refint\Desafio100ExerciciosCSharp.dll
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.pdb
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.genruntimeconfig.cache
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\ref\Desafio100ExerciciosCSharp.dll
