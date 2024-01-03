@@ -12,3 +12,4 @@ C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\refint\Desafio100ExerciciosCS
 C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.pdb
 C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.genruntimeconfig.cache
 C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\ref\Desafio100ExerciciosCSharp.dll
+C:\src\Desafio100ExerciciosCSharp\obj\Debug\net8.0\Desafio100ExerciciosCSharp.sourcelink.json

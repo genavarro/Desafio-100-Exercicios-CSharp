@@ -9,6 +9,7 @@ class Exercicios
         //Exercicio2();
         //Exercicio3();
         //Exercicio4();
+        // Exercicio5();
     }
 
 
@@ -55,4 +56,18 @@ class Exercicios
         Console.WriteLine($"A soma entre {numero1} e {numero2} é: {resultado}");
 
     }
+    public static void Exercicio5()
+    {
+        int nota1;
+        int nota2;
+        int media;
+
+        Console.WriteLine("Informe sua primeira nota: ");
+        nota1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Informe sua segunda nota: ");
+        nota2 = Convert.ToInt32(Console.ReadLine());
+        media = (nota1 + nota2) / 2;
+        Console.WriteLine($"Nota 1: {nota1} \nNota 2: {nota2}\nMédia: {media}");
+    }
+
 }
