@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 class Exercicios
 {
@@ -10,16 +11,20 @@ class Exercicios
         //Exercicio3();
         //Exercicio4();
         // Exercicio5();
+        // Exercicio6();
+        Exercicio7();
     }
 
 
     public static void Exercicio1()
     {
+        //Mostrar no terminal uma mensagem de "Hello, World!"
         Console.WriteLine("Hello, World!");
     }
 
     public static void Exercicio2()
     {
+        //Pedir ao usuário o nome dele e retornar uma mensagem de "Olá (nome)!"
         string nome;
 
         Console.WriteLine("Informe seu nome ");
@@ -30,6 +35,7 @@ class Exercicios
 
     public static void Exercicio3()
     {
+        //Ler o nome e o salário de uma pessoa e exibir uma mensagem de "(nome), (salario)"
         string nome;
         int salario;
 
@@ -43,6 +49,8 @@ class Exercicios
 
     public static void Exercicio4()
     {
+        //Soma entre dois numeros
+
         int numero1;
         int numero2;
         int resultado;
@@ -58,6 +66,7 @@ class Exercicios
     }
     public static void Exercicio5()
     {
+        //Calcular a media de dois valores
         int nota1;
         int nota2;
         int media;
@@ -68,6 +77,31 @@ class Exercicios
         nota2 = Convert.ToInt32(Console.ReadLine());
         media = (nota1 + nota2) / 2;
         Console.WriteLine($"Nota 1: {nota1} \nNota 2: {nota2}\nMédia: {media}");
+    }
+    public static void Exercicio6()
+    {
+        int numero; 
+        int antecessor; 
+        int sucessor; 
+
+        Console.WriteLine("Informe um número: ");
+        numero = Convert.ToInt32(Console.ReadLine());
+        antecessor = numero - 1;
+        sucessor = numero + 1;
+        Console.WriteLine($"Número: {numero}\nSucessor: {sucessor}\nAntecessor: {antecessor}");
+    }
+    public static void Exercicio7()
+    {
+        decimal numero; 
+        decimal dobronumero; 
+        decimal tercapartenumero;
+
+        Console.WriteLine("Informe um número");
+        numero = Convert.ToDecimal(Console.ReadLine());
+        dobronumero = numero * 2;
+        tercapartenumero = numero / 3;
+
+        Console.WriteLine($"Numero: {numero}\nDobro: {dobronumero}\n Terça parte: {tercapartenumero:.#####}");
     }
 
 }
