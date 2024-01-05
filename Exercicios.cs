@@ -12,7 +12,8 @@ class Exercicios
         //Exercicio4();
         // Exercicio5();
         // Exercicio6();
-        Exercicio7();
+        // Exercicio7();
+        // Exercicio8();
     }
 
 
@@ -80,9 +81,9 @@ class Exercicios
     }
     public static void Exercicio6()
     {
-        int numero; 
-        int antecessor; 
-        int sucessor; 
+        int numero;
+        int antecessor;
+        int sucessor;
 
         Console.WriteLine("Informe um número: ");
         numero = Convert.ToInt32(Console.ReadLine());
@@ -92,8 +93,8 @@ class Exercicios
     }
     public static void Exercicio7()
     {
-        decimal numero; 
-        decimal dobronumero; 
+        decimal numero;
+        decimal dobronumero;
         decimal tercapartenumero;
 
         Console.WriteLine("Informe um número");
@@ -102,6 +103,29 @@ class Exercicios
         tercapartenumero = numero / 3;
 
         Console.WriteLine($"Numero: {numero}\nDobro: {dobronumero}\n Terça parte: {tercapartenumero:.#####}");
+    }
+
+    public static void Exercicio8()
+    {
+        decimal metros;
+        decimal quilometros;
+        decimal centimetros;
+        decimal hectometro;
+        decimal decametro;
+        decimal milimetro;
+        decimal decimetro;
+
+
+        Console.WriteLine("Informe uma distância em metros: ");
+        metros = Convert.ToDecimal(Console.ReadLine());
+        quilometros = metros / 1000;
+        centimetros = metros * 100;
+        hectometro = metros / 100;
+        decametro = metros / 10;
+        milimetro = metros * 1000;
+        decimetro = metros * 10;
+
+        Console.WriteLine($"Metros: {metros}\nQuilometros: {quilometros}\nCentimetros: {centimetros}\nHectometro {hectometro}\nDecametro: {decametro}\nMilimetro: {milimetro}\nDecimetro: {decimetro}");
     }
 
 }
