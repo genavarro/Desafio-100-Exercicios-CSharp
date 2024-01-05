@@ -14,6 +14,7 @@ class Exercicios
         // Exercicio6();
         // Exercicio7();
         // Exercicio8();
+        Exercicio9();
     }
 
 
@@ -126,6 +127,21 @@ class Exercicios
         decimetro = metros * 10;
 
         Console.WriteLine($"Metros: {metros}\nQuilometros: {quilometros}\nCentimetros: {centimetros}\nHectometro {hectometro}\nDecametro: {decametro}\nMilimetro: {milimetro}\nDecimetro: {decimetro}");
+    }
+
+
+    public static void Exercicio9()
+    {
+        decimal valorEmReal;
+        decimal valorEmDolar;
+
+        Console.WriteLine("Informe o valor em real: ");
+        valorEmReal = Convert.ToDecimal(Console.ReadLine());
+
+        valorEmDolar = valorEmReal / 4.87m; 
+
+        Console.WriteLine($"Real: {valorEmReal}\n Dólar: {valorEmDolar}");
+
     }
 
 }
