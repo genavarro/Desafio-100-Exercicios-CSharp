@@ -15,7 +15,8 @@ class Exercicios
         // Exercicio7();
         // Exercicio8();
         // Exercicio9();
-        Exercicio10();
+        // Exercicio10();
+        Exercicio11();
     }
 
 
@@ -161,4 +162,25 @@ class Exercicios
         Console.WriteLine($"Area: {area}\nQuantidade de tinta: {quantidadeDeTinta}");
 
     }
+
+       public static void Exercicio11()
+    {
+        int A; 
+        double B; 
+        int C; 
+        double delta;
+
+        Console.WriteLine("Informe o valor de A: ");
+        A = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Informe o valor de B: ");
+        B = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Informe o valor de C: ");
+        C = Convert.ToInt32(Console.ReadLine());
+
+        delta = (Math.Pow(B, 2) - 4) * A * C; 
+
+        Console.WriteLine($"O valor de delta é {delta}");
+    } 
 }
