@@ -14,7 +14,8 @@ class Exercicios
         // Exercicio6();
         // Exercicio7();
         // Exercicio8();
-        Exercicio9();
+        // Exercicio9();
+        Exercicio10();
     }
 
 
@@ -143,5 +144,21 @@ class Exercicios
         Console.WriteLine($"Real: {valorEmReal}\n Dólar: {valorEmDolar}");
 
     }
+    public static void Exercicio10()
+    {
+        decimal altura;
+        decimal largura;
+        decimal area;
+        decimal quantidadeDeTinta;
 
+        Console.WriteLine("Qual a altura da parede? ");
+        altura = Convert.ToDecimal(Console.ReadLine());
+        Console.WriteLine("Qual a largura da parede? ");
+        largura = Convert.ToDecimal(Console.ReadLine());
+
+        area = altura * largura; 
+        quantidadeDeTinta = area / 2.0m;
+        Console.WriteLine($"Area: {area}\nQuantidade de tinta: {quantidadeDeTinta}");
+
+    }
 }
