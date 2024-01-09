@@ -179,8 +179,10 @@ class Exercicios
         Console.WriteLine("Informe o valor de C: ");
         C = Convert.ToInt32(Console.ReadLine());
 
-        delta = (Math.Pow(B, 2) - 4) * A * C; 
+        delta = Math.Pow(B, 2) - 4 * A * C; 
 
         Console.WriteLine($"O valor de delta é {delta}");
     } 
+
+
 }
