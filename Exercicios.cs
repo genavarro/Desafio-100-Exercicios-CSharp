@@ -17,7 +17,8 @@ class Exercicios
         // Exercicio9();
         // Exercicio10();
         // Exercicio11();
-        Exercicio12();
+        // Exercicio12();
+        Exercicio13();
     }
 
 
@@ -196,6 +197,19 @@ class Exercicios
         desconto = produto * (5m /100);
         produtoComDesconto = produto - desconto;
         Console.WriteLine($"O produto com desconto fica: {produtoComDesconto}");
+    } 
+
+        public static void Exercicio13()
+    {
+        decimal salario; 
+        decimal aumento; 
+        decimal valorFinal;
+
+        Console.WriteLine("Informe o valor atual do salário: ");
+        salario = Convert.ToDecimal(Console.ReadLine());
+        aumento = salario * (15m /100);
+        valorFinal = salario + aumento; 
+        Console.WriteLine($"O salario com 15% de aumento será de: {valorFinal}");
 
     } 
 
