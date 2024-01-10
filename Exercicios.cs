@@ -16,7 +16,8 @@ class Exercicios
         // Exercicio8();
         // Exercicio9();
         // Exercicio10();
-        Exercicio11();
+        // Exercicio11();
+        Exercicio12();
     }
 
 
@@ -182,6 +183,20 @@ class Exercicios
         delta = Math.Pow(B, 2) - 4 * A * C; 
 
         Console.WriteLine($"O valor de delta é {delta}");
+    } 
+
+           public static void Exercicio12()
+    {
+        decimal produto;
+        decimal desconto;
+        decimal produtoComDesconto;
+        
+        Console.WriteLine("Informe o valor do produto");
+        produto = Convert.ToDecimal(Console.ReadLine());
+        desconto = produto * (5m /100);
+        produtoComDesconto = produto - desconto;
+        Console.WriteLine($"O produto com desconto fica: {produtoComDesconto}");
+
     } 
 
 
