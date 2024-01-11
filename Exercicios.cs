@@ -18,7 +18,8 @@ class Exercicios
         // Exercicio10();
         // Exercicio11();
         // Exercicio12();
-        Exercicio13();
+        // Exercicio13();
+        Exercicio14();
     }
 
 
@@ -210,6 +211,23 @@ class Exercicios
         aumento = salario * (15m /100);
         valorFinal = salario + aumento; 
         Console.WriteLine($"O salario com 15% de aumento será de: {valorFinal}");
+
+    } 
+
+        public static void Exercicio14()
+    {
+        decimal km; 
+        decimal dias; 
+        decimal total; 
+
+        Console.WriteLine("Por quantos dias o carro foi alugado? ");
+        dias = Convert.ToDecimal(Console.ReadLine());
+        Console.WriteLine("Quantos km o carro percorreu? ");
+        km = Convert.ToDecimal(Console.ReadLine());
+
+        total = (dias * 90.00m) + (km * 0.20m);
+
+        Console.WriteLine($"O valor total a pagar é: {total}");
 
     } 
 
