@@ -19,7 +19,8 @@ class Exercicios
         // Exercicio11();
         // Exercicio12();
         // Exercicio13();
-        Exercicio14();
+        // Exercicio14();
+        Exercicio15();
     }
 
 
@@ -143,7 +144,7 @@ class Exercicios
         Console.WriteLine("Informe o valor em real: ");
         valorEmReal = Convert.ToDecimal(Console.ReadLine());
 
-        valorEmDolar = valorEmReal / 4.87m; 
+        valorEmDolar = valorEmReal / 4.87m;
 
         Console.WriteLine($"Real: {valorEmReal}\n Dólar: {valorEmDolar}");
 
@@ -160,17 +161,17 @@ class Exercicios
         Console.WriteLine("Qual a largura da parede? ");
         largura = Convert.ToDecimal(Console.ReadLine());
 
-        area = altura * largura; 
+        area = altura * largura;
         quantidadeDeTinta = area / 2.0m;
         Console.WriteLine($"Area: {area}\nQuantidade de tinta: {quantidadeDeTinta}");
 
     }
 
-       public static void Exercicio11()
+    public static void Exercicio11()
     {
-        int A; 
-        double B; 
-        int C; 
+        int A;
+        double B;
+        int C;
         double delta;
 
         Console.WriteLine("Informe o valor de A: ");
@@ -182,43 +183,43 @@ class Exercicios
         Console.WriteLine("Informe o valor de C: ");
         C = Convert.ToInt32(Console.ReadLine());
 
-        delta = Math.Pow(B, 2) - 4 * A * C; 
+        delta = Math.Pow(B, 2) - 4 * A * C;
 
         Console.WriteLine($"O valor de delta é {delta}");
-    } 
+    }
 
-           public static void Exercicio12()
+    public static void Exercicio12()
     {
         decimal produto;
         decimal desconto;
         decimal produtoComDesconto;
-        
+
         Console.WriteLine("Informe o valor do produto");
         produto = Convert.ToDecimal(Console.ReadLine());
-        desconto = produto * (5m /100);
+        desconto = produto * (5m / 100);
         produtoComDesconto = produto - desconto;
         Console.WriteLine($"O produto com desconto fica: {produtoComDesconto}");
-    } 
+    }
 
-        public static void Exercicio13()
+    public static void Exercicio13()
     {
-        decimal salario; 
-        decimal aumento; 
+        decimal salario;
+        decimal aumento;
         decimal valorFinal;
 
         Console.WriteLine("Informe o valor atual do salário: ");
         salario = Convert.ToDecimal(Console.ReadLine());
-        aumento = salario * (15m /100);
-        valorFinal = salario + aumento; 
+        aumento = salario * (15m / 100);
+        valorFinal = salario + aumento;
         Console.WriteLine($"O salario com 15% de aumento será de: {valorFinal}");
 
-    } 
+    }
 
-        public static void Exercicio14()
+    public static void Exercicio14()
     {
-        decimal km; 
-        decimal dias; 
-        decimal total; 
+        decimal km;
+        decimal dias;
+        decimal total;
 
         Console.WriteLine("Por quantos dias o carro foi alugado? ");
         dias = Convert.ToDecimal(Console.ReadLine());
@@ -229,14 +230,28 @@ class Exercicios
 
         Console.WriteLine($"O valor total a pagar é: {total}");
 
-    } 
+    }
 
 
 
     public static void Exercicio15()
     {
 
-        
+        int diasTrabalhados; 
+        int valorHoraTrabalhada = 25;
+        int valorTotalDia;
+        int horasTrabalhadasDia = 8;
+        int salario;
+
+        Console.WriteLine("Infome a quantidade de dias trabalhados em um mês: ");
+        diasTrabalhados = Convert.ToInt32(Console.ReadLine());
+
+        valorTotalDia = valorHoraTrabalhada * horasTrabalhadasDia; 
+        salario = valorTotalDia * diasTrabalhados;
+
+        Console.WriteLine($"O valor que o funcionarrio vai receber no mês é: {salario}");
+    
+
     }
 
 }
